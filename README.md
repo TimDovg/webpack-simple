@@ -1,21 +1,6 @@
-# webpack-starter-config
+To run a program:
 
-Simple webpack configuration with babel, sass and webpack-dev-server.
-
-Js and css will minify in production mode.
-
-## Development mode
-
-```
+cd *root*
+npm init
+npm install webpack webpack-cli webpack-dev-server --save-dev
 npm start
-```
-
-In this mode *.css and *.js will  remove from /public folder.
-
-## Production mode
-
-```
-npm run build
-```
-
-Assets (*.css and *.js) will save in /public folder.
